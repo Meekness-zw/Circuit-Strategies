@@ -39,7 +39,8 @@ window.addEventListener('scroll', () => {
 
 // Mobile Menu Toggle
 mobileMenuToggle.addEventListener('click', () => {
-    nav.classList.toggle('active');
+    const navList = nav.querySelector('.nav-list');
+    navList.classList.toggle('active');
     mobileMenuToggle.classList.toggle('active');
     
     // Animate hamburger menu
