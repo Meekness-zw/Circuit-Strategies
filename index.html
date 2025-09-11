@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuit Strategies - Ethical AI Consulting</title>
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+    <link rel="apple-touch-icon" href="assets/images/Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="circuit-loader">
+            <div class="circuit-dot"></div>
+            <div class="circuit-dot"></div>
+            <div class="circuit-dot"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo">
+                    <img src="assets/images/Logo.png" alt="Circuit Strategies Logo" class="logo-image">
+                    <div class="logo-text">
+                        <span class="logo-name">Circuit Strategies</span>
+                        <div class="tagline">Connecting Insights, Empowering Decisions</div>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#chatbots">AI Chatbots</a></li>
+                            <li><a href="#voice-agents">AI Voice Agents</a></li>
+                            <li><a href="#process-automation">Process Automation</a></li>
+                            <li><a href="#sales-marketing">Sales & Marketing</a></li>
+                            <li><a href="#ethical-ai">Ethical AI Consulting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#contact" class="cta-button primary">Schedule Consultation</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="circuit-pattern"></div>
+            <div class="floating-elements">
+                <div class="floating-element" style="--delay: 0s"></div>
+                <div class="floating-element" style="--delay: 2s"></div>
+                <div class="floating-element" style="--delay: 4s"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Transform Your Business</span>
+                <span class="title-line">with <span class="highlight">Ethical AI</span></span>
+            </h1>
+            <p class="hero-description">
+                Unlock the power of artificial intelligence with our comprehensive suite of AI solutions. 
+                From intelligent chatbots to process automation, we help you innovate responsibly.
+            </p>
+            <div class="hero-actions">
+                <a href="#services" class="cta-button primary large">Explore Solutions</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="98">0</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">AI Experts</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Redefining Business Through Ethical AI</h2>
+                <p class="section-description">
+                    Circuit Strategies is a premier AI advisory firm dedicated to empowering organizations 
+                    with ethical, innovative, and transformative artificial intelligence solutions.
+                </p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="value-icon">💡</div>
+                    <div class="value-content">
+                        <h3>Innovation</h3>
+                        <p>Cutting-edge AI solutions that push the boundaries of what's possible</p>
+                    </div>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="value-icon">🛡️</div>
+                    <div class="value-content">
+                        <h3>Ethics</h3>
+                        <p>Responsible AI practices that prioritize transparency and fairness</p>
+                    </div>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-icon">🤝</div>
+                    <div class="value-content">
+                        <h3>Partnership</h3>
+                        <p>Client-centric approach with tailored solutions for your unique needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our AI Solutions</h2>
+                <p class="section-description">
+                    Comprehensive AI services designed to transform your business operations
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI Chatbots</h3>
+                    <p>Intelligent conversational agents that provide 24/7 customer support with human-like interactions</p>
+                    <ul class="service-features">
+                        <li>Natural Language Processing</li>
+                        <li>Multi-language Support</li>
+                        <li>Integration Ready</li>
+                    </ul>
+                    <a href="#chatbots" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">🎙️</div>
+                    <h3>AI Voice Agents</h3>
+                    <p>Advanced voice AI that handles calls, provides recommendations, and manages complex queries</p>
+                    <ul class="service-features">
+                        <li>Voice Recognition</li>
+                        <li>Sentiment Analysis</li>
+                        <li>Call Analytics</li>
+                    </ul>
+                    <a href="#voice-agents" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Process Automation</h3>
+                    <p>Streamline operations by automating repetitive tasks and optimizing workflows</p>
+                    <ul class="service-features">
+                        <li>Workflow Optimization</li>
+                        <li>Data Processing</li>
+                        <li>Error Reduction</li>
+                    </ul>
+                    <a href="#process-automation" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">📈</div>
+                    <h3>Sales & Marketing AI</h3>
+                    <p>AI-powered lead generation, personalized campaigns, and conversion optimization</p>
+                    <ul class="service-features">
+                        <li>Lead Scoring</li>
+                        <li>Campaign Optimization</li>
+                        <li>Predictive Analytics</li>
+                    </ul>
+                    <a href="#sales-marketing" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Ethical AI Consulting</h3>
+                    <p>Comprehensive AI ethics services ensuring compliance, trust, and responsible deployment</p>
+                    <ul class="service-features">
+                        <li>AI Audits & Certification</li>
+                        <li>Governance & Compliance</li>
+                        <li>Security & Risk Assessment</li>
+                    </ul>
+                    <a href="#ethical-ai" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ethical AI Commitment Section -->
+    <section class="section" id="ethical-ai-commitment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Building Trust Through Ethical AI</h2>
+                <p class="section-description">
+                    At Circuit Strategies, we believe AI should be a force for good. Our ethical AI consulting ensures your solutions are transparent, fair, and aligned with your values. We provide:
+                </p>
+            </div>
+            
+            <div class="ethical-ai-list">
+                <ul>
+                    <li><strong>AI Audits & Certification</strong>: Thorough evaluations to ensure AI systems meet performance, reliability, and ethical standards.</li>
+                    <li><strong>Governance & Assurance</strong>: Expert guidance on navigating global AI regulations and ensuring compliance.</li>
+                    <li><strong>Policy & Strategy</strong>: Tailored AI policies and strategies, including workshops and drafting support.</li>
+                    <li><strong>Security & Red Teaming</strong>: Identifying and mitigating AI-specific risks for secure, resilient systems.</li>
+                    <li><strong>Sustainability</strong>: Designing environmentally responsible AI solutions as adoption grows.</li>
+                    <li><strong>Upskilling</strong>: Training programs to enhance your team's understanding of AI ethics and technologies.</li>
+                    <li><strong>Vendor Selection</strong>: Assistance in choosing ethical and compatible third-party AI vendors.</li>
+                    <li><strong>Values Mapping & Culture Alignment</strong>: Aligning AI deployments with your organizational culture and societal values.</li>
+                </ul>
+            </div>
+            
+            <div class="ethical-ai-visual">
+                <div class="placeholder-image ethical-ai">🛡️</div>
+            </div>
+            
+            <a href="#ethical-ai" class="cta-button primary">Explore Our Ethical AI Framework</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section why-choose" id="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Circuit Strategies?</h2>
+            </div>
+            
+            <div class="why-choose-grid">
+                <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="value-icon">🤝</div>
+                    <div class="value-content">
+                        <h3>Client-Centric Approach</h3>
+                        <p>We tailor every solution to your unique business needs, ensuring measurable outcomes.</p>
+                    </div>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="value-icon">💡</div>
+                    <div class="value-content">
+                        <h3>Expertise & Innovation</h3>
+                        <p>Our multidisciplinary team delivers cutting-edge AI backed by industry insights.</p>
+                    </div>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-icon">🛡️</div>
+                    <div class="value-content">
+                        <h3>Ethical Leadership</h3>
+                        <p>We prioritize responsible AI practices, fostering trust and compliance.</p>
+                    </div>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="value-icon">📊</div>
+                    <div class="value-content">
+                        <h3>Measurable Results</h3>
+                        <p>Proven success in boosting efficiency, growth, and customer satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <a href="#case-studies" class="cta-button primary">See Our Case Studies</a>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="section case-studies" id="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-description">Real results from our AI implementations</p>
+            </div>
+            
+            <div class="case-studies-grid">
+                <div class="case-study-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="case-study-image">
+                        <div class="placeholder-image retail">🛍️</div>
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Retail Revolution</h3>
+                        <p class="case-study-challenge">Challenge: High customer inquiry volumes and long response times</p>
+                        <p class="case-study-solution">Solution: AI chatbots with natural language processing</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <span class="result-number">50%</span>
+                                <span class="result-label">Faster Response</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">40%</span>
+                                <span class="result-label">Higher Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="case-study-image">
+                        <div class="placeholder-image healthcare">🏥</div>
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Healthcare Efficiency</h3>
+                        <p class="case-study-challenge">Challenge: Inefficient patient data processing and scheduling</p>
+                        <p class="case-study-solution">Solution: Process automation for data entry and scheduling</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <span class="result-number">60%</span>
+                                <span class="result-label">Time Saved</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">75%</span>
+                                <span class="result-label">Fewer Errors</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="case-study-image">
+                        <div class="placeholder-image ecommerce">🛒</div>
+                    </div>
+                    <div class="case-study-content">
+                        <h3>E-commerce Growth</h3>
+                        <p class="case-study-challenge">Challenge: Low conversion rates and poor lead quality</p>
+                        <p class="case-study-solution">Solution: AI-driven sales automation and personalization</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <span class="result-number">30%</span>
+                                <span class="result-label">More Conversions</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">25%</span>
+                                <span class="result-label">Better Leads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Stay Ahead with AI Insights</h2>
+            </div>
+            
+            <div class="blog-grid">
+                <div class="case-study-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="case-study-image">
+                        <div class="placeholder-image blog">🤖</div>
+                    </div>
+                    <div class="case-study-content">
+                        <h3>The Future of AI Chatbots</h3>
+                        <p>Discover how AI chatbots are revolutionizing customer support with 24/7 availability and personalized interactions.</p>
+                        <a href="#blog" class="cta-button primary">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="case-study-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="case-study-image">
+                        <div class="placeholder-image blog">⚖️</div>
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Navigating AI Regulations</h3>
+                        <p>Learn how to stay compliant with global AI regulations and build trust with ethical AI practices.</p>
+                        <a href="#blog" class="cta-button primary">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="case-study-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="case-study-image">
+                        <div class="placeholder-image blog">📈</div>
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Scaling Sales with AI Automation</h3>
+                        <p>Explore how AI-driven sales automation can boost conversions and streamline your marketing efforts.</p>
+                        <a href="#blog" class="cta-button primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-actions">
+                <a href="#blog" class="cta-button primary">Read Our Latest Insights</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ready to Transform Your Business with AI?</h2>
+                <p class="section-description">
+                    Connect with Circuit Strategies to explore ethical AI solutions tailored to your needs. Whether you're looking to enhance customer support, streamline operations, or drive growth, our team is here to help you succeed.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-container" data-aos="fade-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder=" " required>
+                            <label for="company">Company Name</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
+                            <label for="message">Tell us about your project</label>
+                        </div>
+                        <button type="submit" class="cta-button primary large">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info" data-aos="fade-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:mmugomeza@circuitstrategies.com">mmugomeza@circuitstrategies.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+14387634432">+1 438 763 4432</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/company/circuitstrategies" target="_blank">Circuit Strategies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="assets/images/Logo.png" alt="Circuit Strategies Logo" class="logo-image">
+                        <div class="logo-text">
+                            <span class="logo-name">Circuit Strategies</span>
+                        </div>
+                    </div>
+                    <p class="tagline">Connecting Insights, Empowering Decisions</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#chatbots">AI Chatbots</a></li>
+                            <li><a href="#voice-agents">Voice Agents</a></li>
+                            <li><a href="#process-automation">Automation</a></li>
+                            <li><a href="#ethical-ai">Ethical AI</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#case-studies">Case Studies</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Circuit Strategies. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/circuit-strategies" target="_blank" title="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61580326332933" target="_blank" title="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <div class="chatbot-avatar">🤖</div>
+            <div class="chatbot-info">
+                <h4>Circuit AI Assistant</h4>
+                <span class="chatbot-status">Online</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose">×</button>
+        </div>
+        
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                <div class="message-avatar">🤖</div>
+                <div class="message-content">
+                    <p>Hello! I'm your Circuit Strategies AI assistant. I can help you learn about our AI solutions, services, and how we can transform your business. What would you like to know?</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chatbot-input-container">
+            <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Ask me about our AI services...">
+            <button class="chatbot-send" id="chatbotSend">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="chatbot-suggestions">
+            <button class="suggestion-btn" data-question="What services do you offer?">Our Services</button>
+            <button class="suggestion-btn" data-question="Tell me about ethical AI">Ethical AI</button>
+            <button class="suggestion-btn" data-question="How can AI help my business?">Business Benefits</button>
+        </div>
+    </div>
+    
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
