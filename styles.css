@@ -959,6 +959,12 @@ body {
     gap: 1rem;
 }
 
+@media (max-width: 768px) {
+    .services-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .service-item {
     background: rgba(255, 255, 255, 0.05);
     padding: 1.5rem;
@@ -1576,6 +1582,14 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .blog-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
 
 .blog-actions {
