@@ -155,7 +155,7 @@
             </div>
             
             <div class="services-grid">
-                <div class="service-card clickable" data-aos="fade-up" data-aos-delay="100" data-service="chatbots">
+                <div class="service-card clickable" data-aos="fade-up" data-aos-delay="100" data-service="chatbots" id="chatbots">
                     <div class="service-icon">🤖</div>
                     <h3>AI Chatbots</h3>
                     <p>Intelligent conversational agents that provide 24/7 customer support with human-like interactions</p>
@@ -167,7 +167,7 @@
                     <div class="service-link">Learn More →</div>
                 </div>
                 
-                <div class="service-card clickable" data-aos="fade-up" data-aos-delay="200" data-service="voice-agents">
+                <div class="service-card clickable" data-aos="fade-up" data-aos-delay="200" data-service="voice-agents" id="voice-agents">
                     <div class="service-icon">🎙️</div>
                     <h3>AI Voice Agents</h3>
                     <p>Advanced voice AI that handles calls, provides recommendations, and manages complex queries</p>
@@ -179,7 +179,7 @@
                     <div class="service-link">Learn More →</div>
                 </div>
                 
-                <div class="service-card clickable" data-aos="fade-up" data-aos-delay="300" data-service="process-automation">
+                <div class="service-card clickable" data-aos="fade-up" data-aos-delay="300" data-service="process-automation" id="process-automation">
                     <div class="service-icon">⚙️</div>
                     <h3>Process Automation</h3>
                     <p>Streamline operations by automating repetitive tasks and optimizing workflows</p>
@@ -203,7 +203,7 @@
                     <div class="service-link">Learn More →</div>
                 </div>
                 
-                <div class="service-card featured clickable" data-aos="fade-up" data-aos-delay="500" data-service="ethical-ai">
+                <div class="service-card featured clickable" data-aos="fade-up" data-aos-delay="500" data-service="ethical-ai" id="ethical-ai">
                     <div class="service-icon">🛡️</div>
                     <h3>Ethical AI Consulting</h3>
                     <p>Comprehensive AI ethics services ensuring compliance, trust, and responsible deployment</p>
@@ -230,14 +230,14 @@
             
             <div class="ethical-ai-list">
                 <ul>
-                    <li><strong>AI Audits & Certification</strong>: Thorough evaluations to ensure AI systems meet performance, reliability, and ethical standards.</li>
-                    <li><strong>Governance & Assurance</strong>: Expert guidance on navigating global AI regulations and ensuring compliance.</li>
-                    <li><strong>Policy & Strategy</strong>: Tailored AI policies and strategies, including workshops and drafting support.</li>
-                    <li><strong>Security & Red Teaming</strong>: Identifying and mitigating AI-specific risks for secure, resilient systems.</li>
-                    <li><strong>Sustainability</strong>: Designing environmentally responsible AI solutions as adoption grows.</li>
-                    <li><strong>Upskilling</strong>: Training programs to enhance your team's understanding of AI ethics and technologies.</li>
-                    <li><strong>Vendor Selection</strong>: Assistance in choosing ethical and compatible third-party AI vendors.</li>
-                    <li><strong>Values Mapping & Culture Alignment</strong>: Aligning AI deployments with your organizational culture and societal values.</li>
+                    <li><strong>AI Audits & Certification:</strong> Thorough evaluations to ensure AI systems meet performance, reliability, and ethical standards.</li>
+                    <li><strong>Governance & Assurance:</strong> Expert guidance on navigating global AI regulations and ensuring compliance.</li>
+                    <li><strong>Policy & Strategy:</strong> Tailored AI policies and strategies, including workshops and drafting support.</li>
+                    <li><strong>Security & Red Teaming:</strong> Identifying and mitigating AI-specific risks for secure, resilient systems.</li>
+                    <li><strong>Sustainability:</strong> Designing environmentally responsible AI solutions as adoption grows.</li>
+                    <li><strong>Upskilling:</strong> Training programs to enhance your team's understanding of AI ethics and technologies.</li>
+                    <li><strong>Vendor Selection:</strong> Assistance in choosing ethical and compatible third-party AI vendors.</li>
+                    <li><strong>Values Mapping & Culture Alignment:</strong> Aligning AI deployments with your organizational culture and societal values.</li>
                 </ul>
             </div>
             
@@ -482,14 +482,22 @@
                         </div>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-icon">💼</div>
+                        <div class="contact-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>LinkedIn</h4>
                             <a href="https://www.linkedin.com/company/circuit-strategies/?viewAsMember=true" target="_blank">Circuit Strategies</a>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-icon">📘</div>
+                        <div class="contact-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>Facebook</h4>
                             <a href="https://www.facebook.com/profile.php?id=61580326332933" target="_blank">Circuit Strategies</a>
@@ -512,6 +520,18 @@
                         </div>
                     </div>
                     <p class="tagline">Connecting Insights, Empowering Decisions</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/circuit-strategies" target="_blank" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61580326332933" target="_blank" title="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 
                 <div class="footer-links">
@@ -544,18 +564,6 @@
             
             <div class="footer-bottom">
                 <p>&copy; 2024 Circuit Strategies. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/company/circuit-strategies" target="_blank" title="LinkedIn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=61580326332933" target="_blank" title="Facebook">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                        </svg>
-                    </a>
-                </div>
             </div>
         </div>
     </footer>
