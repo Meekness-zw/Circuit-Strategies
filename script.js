@@ -211,7 +211,7 @@ function initializeChatbot() {
             'What services do you offer?': 'We offer comprehensive AI solutions including AI Chatbots, Voice Agents, Process Automation, Sales & Marketing AI, and Ethical AI Consulting. Each service is designed to transform your business operations and drive growth.',
             'Tell me about ethical AI': 'Ethical AI is at the core of everything we do. We provide AI Audits & Certification, Governance & Compliance guidance, Security & Risk Assessment, and ensure all AI solutions are transparent, fair, and aligned with your values.',
             'How can AI help my business?': 'AI can revolutionize your business by automating repetitive tasks, providing 24/7 customer support, improving decision-making with data insights, personalizing customer experiences, and optimizing operations for better efficiency and growth.',
-            'default': 'Thank you for your question! Our AI solutions can help transform your business operations. Would you like to schedule a consultation to discuss your specific needs? You can contact us at info@circuitstrategies.com or call +1 438 763 4432.'
+            'default': 'Thank you for your question! Our AI solutions can help transform your business operations. Would you like to schedule a consultation to discuss your specific needs? You can contact us at info@circuitstrategies.com or call our toll-free number +1 (888) 483-7122.'
         };
 
         return responses[message] || responses['default'];
