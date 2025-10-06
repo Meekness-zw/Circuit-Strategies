@@ -36,6 +36,21 @@ body {
     overflow-x: hidden;
 }
 
+/* Page Transitions */
+body.page-fade-in {
+    opacity: 0;
+    animation: pageFadeIn 400ms ease forwards;
+}
+
+body.page-fade-out {
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+
+@keyframes pageFadeIn {
+    to { opacity: 1; }
+}
+
 /* Loading Animation */
 .loader {
     position: fixed;

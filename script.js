@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeContactForm();
     initializeServiceModals();
     initializeScrollEffects();
+    initializePageTransitions();
 });
 
 // Navigation functionality
